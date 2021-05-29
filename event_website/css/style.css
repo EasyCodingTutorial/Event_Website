@@ -1,0 +1,140 @@
+.navbar-brand{
+    font-weight: bold;
+    padding-left: 150px;
+    font-size: 60px;
+    color: #fff !important;
+    font-style: italic;
+    text-transform:capitalize;
+}
+.navbar{
+    padding: 30px;
+    transition: 0.5s;
+}
+ .navbar.scrol{
+    background: #3498db;
+} 
+.navbar-nav{
+    padding-left: 300px;
+}
+.nav-link{
+    font-weight: bold;
+    color: #fff !important;
+    margin-left: 10px;
+    transition: transform 0.5s;
+}
+.nav-link:hover{
+    background: #dc3445;
+    border-radius: 15px;
+    transform: translateY(-20px);
+}
+.header{
+    margin: 0;
+    padding: 0;
+}
+.header .img-parent{
+    position: relative;
+}
+.header img{
+    height: 100vh;
+    width: 100%;
+}
+.header .img-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    z-index: 1;
+    opacity: 0.4;
+}
+.header .img-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    color: #fff !important;
+    text-align: center !important;
+    justify-content: center !important;
+} 
+.header .img-content h2{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 60px;
+    margin-bottom: 20px !important;
+}
+.header .img-content span{
+    font-weight: 500;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 0.2px;
+}
+
+/* EVENT SECTION START */
+.event{
+    margin: 200px auto;
+}
+.event-content{
+    box-shadow: 10px 10px 10px -10px rgba(0,0,0,0.3) , inset 10px 10px 10px -10px rgba(0,0,0,0.5);
+    background: #fff !important;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: -70px 
+    !important;
+    margin-left: 20px !important;
+    position: absolute;
+}
+.event img{
+    transition: 0.6s;
+}
+.event img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.event-content h6{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.event-content span{
+    font-style: italic;
+    font-size: 15px;
+}
+.event-content a{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.event .col-sm-5{
+    margin-bottom: 200px !important;
+}
+
+footer{
+ 
+    background: #3498db;
+    padding: 80px;
+}
+footer h4{
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom:  40px;
+}
+
+footer span{
+    font-weight: bold;
+    color: #ccc !important;
+    margin-bottom: 30px !important;
+}
+footer input{
+    margin: 20px auto;
+}
+.final-span{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-style: italic;
+    margin: 20px auto !important;
+    color: #fff !important;
+}
